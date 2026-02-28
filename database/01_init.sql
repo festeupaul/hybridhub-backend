@@ -24,4 +24,4 @@ INSERT INTO users (name, email, role) VALUES
 ('Andrei Popescu', 'andrei@hybridhub.com', 'employee');
 
 INSERT INTO desks (label) VALUES 
-('Birou A1 - Geam'), ('Birou A2 - Mijloc'), ('Sala Ședințe - Etaj 1');
+('Birou A1 - Geam'), ('Birou A2 - Mijloc'), ('Sala Ședințe - Etaj 1'); 
