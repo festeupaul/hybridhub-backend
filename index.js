@@ -25,7 +25,7 @@ app.get('/', async (req, res) => {
 
 app.get('/api/desks', async (req, res) => {
   try {
-    const result = await pool.query('SELECT * FROM desks WHERE is_active = true ORDER BY id ASC');
+    const result = await pool.query('SELECT * FROM desks ORDER BY id ASC');
     res.json(result.rows);
   } catch (err) {
     console.error('Eroare la preluarea birourilor:', err);
